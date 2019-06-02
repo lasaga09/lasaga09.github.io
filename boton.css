@@ -19,7 +19,7 @@ section{
 	max-width:500px;
 	border: white solid 4px;
 	cursor: pointer;
-	background-color: #0493bd;
+	background-color: #2686B5;
 	margin-top: -4px;
 	color: white;
 	text-transform: uppercase;
@@ -40,6 +40,7 @@ section{
 #button-blue:hover{
 	background-color: rgba(0,0,0,0);
 	color: #0493bd;
+	border: 1px #7C7979 solid;
 }
 
 /* The white hover effect */
@@ -52,6 +53,7 @@ section{
 	-o-transition: .3s ease;
 	-ms-transition: .3s ease;
 	transition: .3s ease;
+
 }
 
 /* Make visable when hover */
@@ -59,5 +61,6 @@ section{
 	width: 100%;
 	max-width: 500px;
 	background-color: white;
-	border: 0;
+
+
 }
